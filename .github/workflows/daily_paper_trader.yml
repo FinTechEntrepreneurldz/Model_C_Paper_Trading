@@ -1,0 +1,71 @@
+name: Daily paper trader (Model C)
+
+on:
+  schedule:
+    # 14:00 UTC = 9:00 AM ET (DST) / 10:00 AM ET (standard) — both ~30 min after market open
+    - cron: '0 14 * * 1-5'
+  workflow_dispatch:
+    inputs:
+      force_rebalance:
+        description: "Force a rebalance even if schedule says hold"
+        required: false
+        default: "false"
+        type: choice
+        options: ["false", "true"]
+      dry_run:
+        description: "Skip Alpaca connection (test only)"
+        required: false
+        default: "false"
+        type: choice
+        options: ["false", "true"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: paper-trader-model-c
+  cancel-in-progress: false
+
+jobs:
+  trade:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      ALPACA_API_KEY:    ${{ secrets.ALPACA_API_KEY }}
+      ALPACA_SECRET_KEY: ${{ secrets.ALPACA_SECRET_KEY }}
+      SUBMIT_ORDERS: "true"
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run paper trader
+        run: |
+          ARGS=""
+          if [ "${{ inputs.force_rebalance }}" = "true" ]; then ARGS="$ARGS --force-rebalance"; fi
+          if [ "${{ inputs.dry_run }}" = "true" ]; then ARGS="$ARGS --dry-run"; fi
+          python paper_trader.py $ARGS
+
+      - name: Commit logs
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A logs/
+          if git diff --cached --quiet; then
+            echo "No log changes to commit."
+          else
+            git commit -m "logs: paper-trader run $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+            git push
+          fi
