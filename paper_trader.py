@@ -525,7 +525,10 @@ def submit_orders(order_plan: pd.DataFrame, client) -> pd.DataFrame:
 # ════════════════════════════════════════════════════════════════════════
 
 def _ts_now():
-    return datetime.now(timezone.utc).strftime("%Y-%m-%d_%H:%M:%S")
+    """ISO 8601 UTC timestamp.  Use the standard 'T' separator so dashboards
+    and downstream tools (which call pd.to_datetime in strict mode) can parse it
+    without custom format hints."""
+    return datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%S+00:00")
 
 
 def _append_csv(path: Path, df: pd.DataFrame):
