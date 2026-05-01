@@ -1,6 +1,11 @@
-numpy>=1.24
-pandas>=2.0
-scikit-learn>=1.3
+# Pin sklearn to the version the joblib was saved with (1.6.1).
+# The bundle contains a SimpleImputer / StandardScaler / MLPRegressor pickled
+# under sklearn 1.6.x — newer versions (1.7+, 1.8+) renamed internal attributes
+# (e.g. _fill_dtype → _fit_dtype) and unpickling fails with AttributeError.
+# Keep this pin until the next quarterly retrain when the joblib is regenerated.
+numpy>=1.24,<2.3
+pandas>=2.0,<2.3
+scikit-learn==1.6.1
 joblib>=1.3
 yfinance>=0.2.40
 alpaca-py>=0.30.0
