@@ -2,8 +2,8 @@ name: Daily paper trader (Model C)
 
 on:
   schedule:
-  - cron: "0 09 * * 1-5"   # 5:00 AM EDT
-  - cron: "0 23 * * 1-5"   # 6:00 PM EST # Mon-Fri 12:45 UTC = 8:45 AM ET
+   - cron: "0 09 * * 1-5"   # 5:00 AM EDT
+   - cron: "0 23 * * 1-5"   # 6:00 PM EST   # 6:00 PM EST # Mon-Fri 12:45 UTC = 8:45 AM ET
   workflow_dispatch:
     inputs:
       force_rebalance:
