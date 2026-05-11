@@ -3,7 +3,7 @@ name: Daily paper trader (Model C)
 on:
   schedule:
     # 14:00 UTC = 9:00 AM ET (DST) / 10:00 AM ET (standard) — both ~30 min after market open
-    - cron: "0 11 * * 1-5"   # Mon-Fri 12:45 UTC = 8:45 AM ET
+    - cron: "0 09 * * 1-5"   # Mon-Fri 12:45 UTC = 8:45 AM ET
   workflow_dispatch:
     inputs:
       force_rebalance:
