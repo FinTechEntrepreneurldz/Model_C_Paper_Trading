@@ -1,2 +1,2 @@
-timestamp_utc,action,do_rebalance,submit_orders,n_target_positions,n_planned_orders,n_submitted_orders,status,equity,cash
-2026-05-15T11:22:54+00:00,hold,False,False,0,0,0,hold,973053.27,-394622.11
+timestamp_utc,action,do_rebalance,submit_orders,n_target_positions,n_planned_orders,n_submitted_orders,gross_exposure,long_exposure,short_exposure,status,equity,cash
+2026-05-15T23:58:52+00:00,rebalance,True,True,112,148,148,1.6000000000000003,1.3000000000000003,-0.30000000000000004,ok,970371.73,-125588.32
