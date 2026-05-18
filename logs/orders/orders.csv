@@ -2216,3 +2216,151 @@ timestamp_utc,symbol,side,qty,notional,order_id,status
 2026-05-15T23:58:52+00:00,EW,buy,1,120.40800377516643,15ae70d1-9082-4863-9285-7c82acf6fefc,OrderStatus.ACCEPTED
 2026-05-15T23:58:52+00:00,BKR,buy,2,117.44234563758255,11c63443-7e8c-435b-a675-5d13a977ebc4,OrderStatus.ACCEPTED
 2026-05-15T23:58:52+00:00,SLB,buy,2,103.90234563758258,b807d1fc-7d35-4cc0-87f9-1a36c212f362,OrderStatus.ACCEPTED
+2026-05-18T12:33:22+00:00,LUV,sell,1201,46245.43,ERROR,"{""available"":""5"",""code"":40310000,""existing_qty"":""1199"",""held_for_orders"":""1194"",""message"":""insufficient qty available for order (requested: 1201, available: 5)"",""related_orders"":[""2afc9bd4-5be1-448f-9"
+2026-05-18T12:33:22+00:00,SWK,sell,609,45760.26,ERROR,"{""available"":""0"",""code"":40310000,""existing_qty"":""609"",""held_for_orders"":""609"",""message"":""insufficient qty available for order (requested: 609, available: 0)"",""related_orders"":[""6ea85698-bcc0-4c60-8848"
+2026-05-18T12:33:22+00:00,WTW,sell,183,45453.54,ERROR,"{""available"":""0"",""code"":40310000,""existing_qty"":""183"",""held_for_orders"":""183"",""message"":""insufficient qty available for order (requested: 183, available: 0)"",""related_orders"":[""aeebf1d8-4acb-4fbb-ad4b"
+2026-05-18T12:33:22+00:00,MRSH,sell,278,44771.9,ERROR,"{""available"":""0"",""code"":40310000,""existing_qty"":""278"",""held_for_orders"":""278"",""message"":""insufficient qty available for order (requested: 278, available: 0)"",""related_orders"":[""2f46d05d-f4df-4829-9430"
+2026-05-18T12:33:22+00:00,WYNN,sell,444,42336.0,ERROR,"{""available"":""0"",""code"":40310000,""existing_qty"":""441"",""held_for_orders"":""441"",""message"":""insufficient qty available for order (requested: 444, available: 0)"",""related_orders"":[""253e58c5-fc7f-4527-a027"
+2026-05-18T12:33:22+00:00,PPG,sell,402,41261.28,ERROR,"{""available"":""0"",""code"":40310000,""existing_qty"":""402"",""held_for_orders"":""402"",""message"":""insufficient qty available for order (requested: 402, available: 0)"",""related_orders"":[""6a1e40b8-29ad-4fd7-a768"
+2026-05-18T12:33:22+00:00,FCX,sell,474,29896.85907785235,ERROR,"{""available"":""398"",""code"":40310000,""existing_qty"":""398"",""held_for_orders"":""0"",""message"":""insufficient qty available for order (requested: 474, available: 398)"",""symbol"":""FCX""}"
+2026-05-18T12:33:22+00:00,GLW,sell,142,27265.868604026844,ERROR,"{""available"":""116"",""code"":40310000,""existing_qty"":""116"",""held_for_orders"":""0"",""message"":""insufficient qty available for order (requested: 142, available: 116)"",""symbol"":""GLW""}"
+2026-05-18T12:33:22+00:00,QCOM,sell,133,26783.54,ERROR,"{""available"":""1"",""code"":40310000,""existing_qty"":""133"",""held_for_orders"":""132"",""message"":""insufficient qty available for order (requested: 133, available: 1)"",""related_orders"":[""e5356aa0-ab6d-4876-893c"
+2026-05-18T12:33:22+00:00,OXY,sell,432,25779.6,ERROR,"{""available"":""1"",""code"":40310000,""existing_qty"":""434"",""held_for_orders"":""433"",""message"":""insufficient qty available for order (requested: 432, available: 1)"",""related_orders"":[""d2a2f593-ce24-4493-a5c4"
+2026-05-18T12:33:22+00:00,VRSK,sell,155,25195.25,ERROR,"{""available"":""0"",""code"":40310000,""existing_qty"":""155"",""held_for_orders"":""155"",""message"":""insufficient qty available for order (requested: 155, available: 0)"",""related_orders"":[""abe73e7b-c61d-44ac-894d"
+2026-05-18T12:33:22+00:00,WDAY,sell,185,23126.85,ERROR,"{""available"":""0"",""code"":40310000,""existing_qty"":""185"",""held_for_orders"":""185"",""message"":""insufficient qty available for order (requested: 185, available: 0)"",""related_orders"":[""f87504de-c24a-4739-9f18"
+2026-05-18T12:33:22+00:00,ADBE,sell,92,22788.4,ERROR,"{""available"":""0"",""code"":40310000,""existing_qty"":""92"",""held_for_orders"":""92"",""message"":""insufficient qty available for order (requested: 92, available: 0)"",""related_orders"":[""f4fb3aa1-b2bb-4a20-8d87-88"
+2026-05-18T12:33:22+00:00,AON,sell,71,22522.62,ERROR,"{""available"":""0"",""code"":40310000,""existing_qty"":""71"",""held_for_orders"":""71"",""message"":""insufficient qty available for order (requested: 71, available: 0)"",""related_orders"":[""7b1e621b-5c2b-436f-9b0e-48"
+2026-05-18T12:33:22+00:00,TTD,sell,1058,22376.7,ERROR,"{""available"":""1"",""code"":40310000,""existing_qty"":""1058"",""held_for_orders"":""1057"",""message"":""insufficient qty available for order (requested: 1058, available: 1)"",""related_orders"":[""6cade671-7739-483e-9"
+2026-05-18T12:33:22+00:00,ULTA,sell,44,21726.76,ERROR,"{""available"":""0"",""code"":40310000,""existing_qty"":""44"",""held_for_orders"":""44"",""message"":""insufficient qty available for order (requested: 44, available: 0)"",""related_orders"":[""1c13f04e-6c14-492c-822d-72"
+2026-05-18T12:33:22+00:00,IDXX,sell,39,20622.81,ERROR,"{""available"":""0"",""code"":40310000,""existing_qty"":""39"",""held_for_orders"":""39"",""message"":""insufficient qty available for order (requested: 39, available: 0)"",""related_orders"":[""186799a4-92fe-4b16-a4cb-20"
+2026-05-18T12:33:22+00:00,LOW,sell,94,20576.6,ERROR,"{""available"":""0"",""code"":40310000,""existing_qty"":""94"",""held_for_orders"":""94"",""message"":""insufficient qty available for order (requested: 94, available: 0)"",""related_orders"":[""cec229ba-5ef7-4b3b-9c75-7d"
+2026-05-18T12:33:22+00:00,TMO,sell,47,20539.0,ERROR,"{""available"":""0"",""code"":40310000,""existing_qty"":""47"",""held_for_orders"":""47"",""message"":""insufficient qty available for order (requested: 47, available: 0)"",""related_orders"":[""375a8750-38b4-432e-b9cd-2f"
+2026-05-18T12:33:22+00:00,SHW,sell,67,20226.6,ERROR,"{""available"":""0"",""code"":40310000,""existing_qty"":""68"",""held_for_orders"":""68"",""message"":""insufficient qty available for order (requested: 67, available: 0)"",""related_orders"":[""1cc6f8b2-3f8d-4205-b5b6-a5"
+2026-05-18T12:33:22+00:00,PSKY,sell,2029,20066.28,fd6ef98e-aea3-4114-8395-65c61ecc77a5,OrderStatus.PENDING_NEW
+2026-05-18T12:33:22+00:00,LEN,sell,243,20007.67439597315,2b97b44d-89b2-49fe-9545-508654c20b10,OrderStatus.PENDING_NEW
+2026-05-18T12:33:22+00:00,ED,sell,161,16962.96,ERROR,"{""available"":""0"",""code"":40310000,""existing_qty"":""161"",""held_for_orders"":""161"",""message"":""insufficient qty available for order (requested: 161, available: 0)"",""related_orders"":[""e1a1bb4a-27c0-4c52-b244"
+2026-05-18T12:33:22+00:00,CHTR,sell,49,6836.25134899329,299ad0bc-43bb-413a-b8b4-701a9753b30b,OrderStatus.PENDING_NEW
+2026-05-18T12:33:22+00:00,TGT,sell,56,6829.244013422821,ERROR,"{""available"":""8"",""code"":40310000,""existing_qty"":""8"",""held_for_orders"":""0"",""message"":""insufficient qty available for order (requested: 56, available: 8)"",""symbol"":""TGT""}"
+2026-05-18T12:33:22+00:00,MNST,sell,67,5859.6440134228205,e164c084-076f-4d31-8623-d0525bee25dc,OrderStatus.PENDING_NEW
+2026-05-18T12:33:22+00:00,MO,sell,78,5713.6440134228205,35b70851-ab19-49e0-9253-4e932da01a54,OrderStatus.PENDING_NEW
+2026-05-18T12:33:22+00:00,JCI,sell,38,5441.098012464047,9ddf9bdb-dfbf-4f33-8aa6-b83d1422a19c,OrderStatus.PENDING_NEW
+2026-05-18T12:33:22+00:00,ODFL,sell,27,5441.098012464047,ef8db80e-b4c5-4110-a6c6-ccadc834c28f,OrderStatus.PENDING_NEW
+2026-05-18T12:33:22+00:00,GS,sell,5,5100.060530201343,dbc7b5cf-275f-4d76-b9fa-0ab1c8572371,OrderStatus.PENDING_NEW
+2026-05-18T12:33:22+00:00,ALGN,sell,32,5005.112594798658,22870f03-a4f0-4db0-8b48-107fbffa282e,OrderStatus.PENDING_NEW
+2026-05-18T12:33:22+00:00,LLY,sell,5,5005.112594798658,11172bfb-85ca-4b81-9a19-8e7ab3429b97,OrderStatus.PENDING_NEW
+2026-05-18T12:33:22+00:00,ADI,sell,12,4991.548604026846,e329c92a-d369-4cd6-81cc-d56ff59bca12,OrderStatus.PENDING_NEW
+2026-05-18T12:33:22+00:00,AKAM,sell,33,4991.548604026846,8268a8bb-eef3-47ad-9fd5-cb047cfa24ad,OrderStatus.PENDING_NEW
+2026-05-18T12:33:22+00:00,AMAT,sell,11,4991.548604026846,6720d31e-2b34-4aee-a02a-5b97a30a0d78,OrderStatus.PENDING_NEW
+2026-05-18T12:33:22+00:00,PANW,sell,21,4991.548604026846,574855fc-fc0b-4c28-9775-e89db917cdee,OrderStatus.PENDING_NEW
+2026-05-18T12:33:22+00:00,D,sell,79,4883.036677852349,6b764c45-3a9f-47c8-a863-749ab17da5fa,OrderStatus.PENDING_NEW
+2026-05-18T12:33:22+00:00,NEE,sell,52,4883.036677852349,5efafe44-89fc-4358-a2ff-4e23be877bec,OrderStatus.PENDING_NEW
+2026-05-18T12:33:22+00:00,NUE,sell,22,4883.036677852349,8256c905-c381-457f-bc64-d5b76896fdea,OrderStatus.PENDING_NEW
+2026-05-18T12:33:22+00:00,PSA,sell,17,4883.036677852349,661e0350-d264-4270-8906-3e4efaf28d45,OrderStatus.PENDING_NEW
+2026-05-18T12:33:22+00:00,SBAC,sell,24,4883.036677852349,5bc4ff07-de45-43c7-952f-e453dfb919da,OrderStatus.PENDING_NEW
+2026-05-18T12:33:22+00:00,TSCO,sell,160,4883.036677852349,10591c54-c063-4609-abb7-e7e0a0103f40,OrderStatus.PENDING_NEW
+2026-05-18T12:33:22+00:00,GOOGL,sell,6,2490.9158489932897,5b44067a-0775-4460-aeee-a93079bc2a75,OrderStatus.PENDING_NEW
+2026-05-18T12:33:22+00:00,GPN,sell,36,2431.2777024608476,25324ce1-ecb5-4c74-933b-e7669811395f,OrderStatus.PENDING_NEW
+2026-05-18T12:33:22+00:00,DVN,sell,39,1930.9443154362343,cc2c7b90-1a17-4518-84fd-4cfab73ec4f5,OrderStatus.PENDING_NEW
+2026-05-18T12:33:22+00:00,APA,sell,42,1641.8643154362326,760e6c8d-0636-4441-bd10-a8716d8a6407,OrderStatus.PENDING_NEW
+2026-05-18T12:33:22+00:00,ORCL,sell,8,1490.6360492169988,e15e0671-07af-4d4c-b227-cee53cf44824,OrderStatus.PENDING_NEW
+2026-05-18T12:33:22+00:00,PCG,sell,87,1401.7243959731495,89e6764e-389c-4ac3-9867-56d4d5425cb5,OrderStatus.PENDING_NEW
+2026-05-18T12:33:22+00:00,MMM,sell,8,1240.2086126557879,8a9827c4-e93d-4c5f-87f3-0e04c52e43f6,OrderStatus.PENDING_NEW
+2026-05-18T12:33:22+00:00,CRM,sell,6,970.3520492169991,7d731d94-ac32-4a51-b55a-279cac38b5dd,OrderStatus.PENDING_NEW
+2026-05-18T12:33:22+00:00,URI,sell,1,961.15,ERROR,"{""available"":""0"",""code"":40310000,""existing_qty"":""1"",""held_for_orders"":""1"",""message"":""insufficient qty available for order (requested: 1, available: 0)"",""related_orders"":[""656c4e3f-761e-46d8-9a5c-accfa"
+2026-05-18T12:33:22+00:00,BAX,sell,56,960.4287558724791,48527f33-f0bf-483d-9a46-1240e1765505,OrderStatus.PENDING_NEW
+2026-05-18T12:33:22+00:00,BBY,sell,15,862.1743959731502,ee95ce66-78bd-4543-8a66-b2957834354b,OrderStatus.PENDING_NEW
+2026-05-18T12:33:22+00:00,HPE,sell,24,786.5786040268458,6cac714d-a100-40ca-bb0b-221f651cb670,OrderStatus.PENDING_NEW
+2026-05-18T12:33:22+00:00,ANET,sell,5,711.5,ERROR,"{""available"":""0"",""code"":40310000,""existing_qty"":""5"",""held_for_orders"":""5"",""message"":""insufficient qty available for order (requested: 5, available: 0)"",""related_orders"":[""4e801942-2094-47a9-9bfa-7af0a"
+2026-05-18T12:33:22+00:00,FISV,sell,12,661.8,ERROR,"{""available"":""0"",""code"":40310000,""existing_qty"":""12"",""held_for_orders"":""12"",""message"":""insufficient qty available for order (requested: 12, available: 0)"",""related_orders"":[""e7584431-bd7f-4bea-a47d-00"
+2026-05-18T12:33:22+00:00,CLX,sell,7,630.0,ERROR,"{""available"":""0"",""code"":40310000,""existing_qty"":""7"",""held_for_orders"":""7"",""message"":""insufficient qty available for order (requested: 7, available: 0)"",""related_orders"":[""34cffb14-b899-4264-9235-e483f"
+2026-05-18T12:33:22+00:00,APH,sell,5,627.5985,ERROR,"{""available"":""0"",""code"":40310000,""existing_qty"":""5"",""held_for_orders"":""5"",""message"":""insufficient qty available for order (requested: 5, available: 0)"",""related_orders"":[""b5b705b7-a318-48a5-b825-ab8e9"
+2026-05-18T12:33:22+00:00,BKNG,sell,4,582.374395973151,cc978dfd-47e0-4b29-916d-7ee047a40211,OrderStatus.PENDING_NEW
+2026-05-18T12:33:22+00:00,ZTS,sell,7,541.8287558724805,a6eb2a1c-b139-4933-8004-043cefcc3ae3,OrderStatus.PENDING_NEW
+2026-05-18T12:33:22+00:00,SYY,sell,7,513.089275167782,3d8c0a81-bebf-4478-9221-977c77723647,OrderStatus.PENDING_NEW
+2026-05-18T12:33:22+00:00,SPGI,sell,1,501.3377024608453,fac0dee3-9cb5-4221-9f1a-e42ef66f5ebc,OrderStatus.PENDING_NEW
+2026-05-18T12:33:22+00:00,UPS,sell,5,462.418612655787,d9dcce3d-33d9-4920-9549-6834169d1d9e,OrderStatus.PENDING_NEW
+2026-05-18T12:33:22+00:00,CF,sell,3,419.6543959731498,71c9c071-84d1-432c-a963-e5b2040a967b,OrderStatus.PENDING_NEW
+2026-05-18T12:33:22+00:00,MDT,sell,5,380.5,ERROR,"{""available"":""0"",""code"":40310000,""existing_qty"":""5"",""held_for_orders"":""5"",""message"":""insufficient qty available for order (requested: 5, available: 0)"",""related_orders"":[""949697ab-be19-46da-a119-4db42"
+2026-05-18T12:33:22+00:00,BA,sell,2,359.4780124640474,fcb33c2c-1ff4-4a13-ac0f-63b28a4c6a07,OrderStatus.PENDING_NEW
+2026-05-18T12:33:22+00:00,TT,sell,1,331.708012464047,f3e1c3e1-556c-418d-8c70-8367eb548a14,OrderStatus.PENDING_NEW
+2026-05-18T12:33:22+00:00,CMG,sell,7,226.49039597314913,dd07d4a1-18bf-45bc-9c16-5da7f7ea2495,OrderStatus.PENDING_NEW
+2026-05-18T12:33:22+00:00,CI,sell,1,177.1125947986584,732786ea-bb82-45e9-a2be-f45a7a389eba,OrderStatus.PENDING_NEW
+2026-05-18T12:33:22+00:00,AMZN,sell,1,154.07667785234935,280dd552-a8f6-4b26-b1a8-f4f9485a8c45,OrderStatus.PENDING_NEW
+2026-05-18T12:33:22+00:00,EA,buy,148,29623.75584563759,10331f76-a582-457f-8fb0-b538be7b4a38,OrderStatus.PENDING_NEW
+2026-05-18T12:33:22+00:00,PYPL,buy,603,26785.451697539153,ERROR,"{""available"":""106"",""code"":40310000,""existing_qty"":""106"",""held_for_orders"":""0"",""message"":""insufficient qty available for order (requested: 603, available: 106)"",""symbol"":""PYPL""}"
+2026-05-18T12:33:22+00:00,VLO,buy,96,23981.135684563767,113e348b-9b26-4272-8aa2-12fd946175e7,OrderStatus.PENDING_NEW
+2026-05-18T12:33:22+00:00,RTX,buy,138,23578.09138734421,35b23102-5d6d-4826-9495-7b5025c2ce06,OrderStatus.PENDING_NEW
+2026-05-18T12:33:22+00:00,AXP,buy,70,22100.262297539153,ae6d1ed0-311b-4bea-ac14-b866bf68e40a,OrderStatus.PENDING_NEW
+2026-05-18T12:33:22+00:00,MCO,buy,52,22100.262297539153,ef566bc2-ef1c-4646-82c8-54a2d018d84d,OrderStatus.PENDING_NEW
+2026-05-18T12:33:22+00:00,WFC,buy,301,22100.262297539153,8aa7cd26-106d-44a2-89a4-05a2ad7e0afd,OrderStatus.PENDING_NEW
+2026-05-18T12:33:22+00:00,XYZ,buy,314,22100.262297539153,43c12cf8-6157-437c-a46e-a7c74041f2b7,OrderStatus.PENDING_NEW
+2026-05-18T12:33:22+00:00,CNC,buy,373,21746.811244127523,ERROR,"{""available"":""1"",""code"":40310000,""existing_qty"":""1"",""held_for_orders"":""0"",""message"":""insufficient qty available for order (requested: 373, available: 1)"",""symbol"":""CNC""}"
+2026-05-18T12:33:22+00:00,A,buy,194,21688.82124412752,769655e4-1d9c-4d7b-a36a-99907e1d6209,OrderStatus.PENDING_NEW
+2026-05-18T12:33:22+00:00,DXCM,buy,352,21688.82124412752,8f4114a2-933f-427b-b0a2-dde7077b615d,OrderStatus.PENDING_NEW
+2026-05-18T12:33:22+00:00,AMD,buy,51,21630.043950783,2aa6f4fe-586d-45fc-9cf8-1ad2571eb0ac,OrderStatus.PENDING_NEW
+2026-05-18T12:33:22+00:00,WDC,buy,45,21630.043950783,66bbd739-93b0-4732-bb3a-e544aea731d8,OrderStatus.PENDING_NEW
+2026-05-18T12:33:22+00:00,BSX,buy,409,21527.27124412752,edc7934f-6305-427f-a90b-c4a4f3573d44,OrderStatus.PENDING_NEW
+2026-05-18T12:33:22+00:00,ALB,buy,117,21159.82560402685,5b0b570a-fef5-4b82-a1d2-266ae36ee1b2,OrderStatus.PENDING_NEW
+2026-05-18T12:33:22+00:00,EXC,buy,488,21159.82560402685,e0038c70-ee34-4153-9d10-848065095b89,OrderStatus.PENDING_NEW
+2026-05-18T12:33:22+00:00,EXPE,buy,97,21159.82560402685,a84eaa53-dd1f-42dc-a750-e76501b6df34,OrderStatus.PENDING_NEW
+2026-05-18T12:33:22+00:00,LULU,buy,178,21159.82560402685,458e6f00-2035-4ecc-a6a5-a06baf55af6d,OrderStatus.PENDING_NEW
+2026-05-18T12:33:22+00:00,LYB,buy,282,21159.82560402685,407435b3-1fc0-4620-8056-94c628bf46d5,OrderStatus.PENDING_NEW
+2026-05-18T12:33:22+00:00,MCD,buy,77,21159.82560402685,e5d800e7-ee29-4d03-83a3-3bf64f47cd00,OrderStatus.PENDING_NEW
+2026-05-18T12:33:22+00:00,O,buy,346,21159.82560402685,bffb30d4-f520-4311-a0c4-abad7a5d2765,OrderStatus.PENDING_NEW
+2026-05-18T12:33:22+00:00,ACN,buy,123,20782.693950783003,fb428f94-090e-4e47-bf7f-25d3b2b78413,OrderStatus.PENDING_NEW
+2026-05-18T12:33:22+00:00,PSX,buy,64,11256.96,ERROR,"{""available"":""0"",""code"":40310000,""existing_qty"":""64"",""held_for_orders"":""64"",""message"":""insufficient qty available for order (requested: 64, available: 0)"",""related_orders"":[""a4d70d17-d96e-4e72-b17d-2f"
+2026-05-18T12:33:22+00:00,EMR,buy,79,10572.8,ERROR,"{""available"":""0"",""code"":40310000,""existing_qty"":""80"",""held_for_orders"":""80"",""message"":""insufficient qty available for order (requested: 79, available: 0)"",""related_orders"":[""f8b142d9-350c-4426-859f-c5"
+2026-05-18T12:33:22+00:00,TRV,buy,34,10157.5,ERROR,"{""available"":""0"",""code"":40310000,""existing_qty"":""34"",""held_for_orders"":""34"",""message"":""insufficient qty available for order (requested: 34, available: 0)"",""related_orders"":[""32cfb6e8-b542-42a6-bafa-a8"
+2026-05-18T12:33:22+00:00,NFLX,buy,102,8845.191445637589,7e24e964-2205-4f1c-a0e5-6608c1000999,OrderStatus.PENDING_NEW
+2026-05-18T12:33:22+00:00,HUM,buy,24,7197.12,ERROR,"{""available"":""0"",""code"":40310000,""existing_qty"":""24"",""held_for_orders"":""24"",""message"":""insufficient qty available for order (requested: 24, available: 0)"",""related_orders"":[""d4b619f1-d1a1-41dc-8652-17"
+2026-05-18T12:33:22+00:00,COST,buy,6,6292.32,ERROR,"{""available"":""0"",""code"":40310000,""existing_qty"":""6"",""held_for_orders"":""6"",""message"":""insufficient qty available for order (requested: 6, available: 0)"",""related_orders"":[""f3fb3e1d-fac1-4614-bb70-07be9"
+2026-05-18T12:33:22+00:00,WMT,buy,46,6058.66,ERROR,"{""available"":""0"",""code"":40310000,""existing_qty"":""46"",""held_for_orders"":""46"",""message"":""insufficient qty available for order (requested: 46, available: 0)"",""related_orders"":[""458fc31b-26b2-4074-8ba6-a3"
+2026-05-18T12:33:22+00:00,XOM,buy,37,5878.93,ERROR,"{""available"":""0"",""code"":40310000,""existing_qty"":""37"",""held_for_orders"":""37"",""message"":""insufficient qty available for order (requested: 37, available: 0)"",""related_orders"":[""cecb70e4-0469-4ca8-b41d-92"
+2026-05-18T12:33:22+00:00,TSN,buy,88,5793.92,ERROR,"{""available"":""0"",""code"":40310000,""existing_qty"":""88"",""held_for_orders"":""88"",""message"":""insufficient qty available for order (requested: 88, available: 0)"",""related_orders"":[""74fc4e63-7c20-4cfa-8447-6a"
+2026-05-18T12:33:22+00:00,CSCO,buy,48,5630.4,ERROR,"{""available"":""0"",""code"":40310000,""existing_qty"":""48"",""held_for_orders"":""48"",""message"":""insufficient qty available for order (requested: 48, available: 0)"",""related_orders"":[""f9dcfc1f-954c-459c-8717-49"
+2026-05-18T12:33:22+00:00,DE,buy,10,5600.0,ERROR,"{""available"":""0"",""code"":40310000,""existing_qty"":""10"",""held_for_orders"":""10"",""message"":""insufficient qty available for order (requested: 10, available: 0)"",""related_orders"":[""2b302eaf-a34e-4028-ba0c-4b"
+2026-05-18T12:33:22+00:00,ETN,buy,14,5586.0,ERROR,"{""available"":""0"",""code"":40310000,""existing_qty"":""14"",""held_for_orders"":""14"",""message"":""insufficient qty available for order (requested: 14, available: 0)"",""related_orders"":[""22f3fa9b-4e13-49cb-a139-68"
+2026-05-18T12:33:22+00:00,FTV,buy,95,5578.4,ERROR,"{""available"":""0"",""code"":40310000,""existing_qty"":""95"",""held_for_orders"":""95"",""message"":""insufficient qty available for order (requested: 95, available: 0)"",""related_orders"":[""ce59f5cf-ff39-467a-95a5-86"
+2026-05-18T12:33:22+00:00,EQIX,buy,5,5304.95,ERROR,"{""available"":""0"",""code"":40310000,""existing_qty"":""5"",""held_for_orders"":""5"",""message"":""insufficient qty available for order (requested: 5, available: 0)"",""related_orders"":[""2e5e5a5f-df9e-41f9-a26b-0787c"
+2026-05-18T12:33:22+00:00,SYK,buy,17,5185.0,ERROR,"{""available"":""0"",""code"":40310000,""existing_qty"":""17"",""held_for_orders"":""17"",""message"":""insufficient qty available for order (requested: 17, available: 0)"",""related_orders"":[""be52b7f7-3d12-41fb-8ec7-51"
+2026-05-18T12:33:22+00:00,USB,buy,97,5175.6446,ERROR,"{""available"":""0"",""code"":40310000,""existing_qty"":""98"",""held_for_orders"":""98"",""message"":""insufficient qty available for order (requested: 97, available: 0)"",""related_orders"":[""a9585df1-6f8f-4fb8-b260-c5"
+2026-05-18T12:33:22+00:00,MU,buy,7,5166.49,ERROR,"{""available"":""0"",""code"":40310000,""existing_qty"":""7"",""held_for_orders"":""7"",""message"":""insufficient qty available for order (requested: 7, available: 0)"",""related_orders"":[""f66b22be-8d07-46ec-96c1-37cde"
+2026-05-18T12:33:22+00:00,FTNT,buy,42,5103.0,ERROR,"{""available"":""0"",""code"":40310000,""existing_qty"":""42"",""held_for_orders"":""42"",""message"":""insufficient qty available for order (requested: 42, available: 0)"",""related_orders"":[""76c49fbb-655a-48d5-80f4-f6"
+2026-05-18T12:33:22+00:00,GOOG,buy,13,5092.88,ERROR,"{""available"":""0"",""code"":40310000,""existing_qty"":""13"",""held_for_orders"":""13"",""message"":""insufficient qty available for order (requested: 13, available: 0)"",""related_orders"":[""5f04e442-ac92-4814-9aac-28"
+2026-05-18T12:33:22+00:00,LIN,buy,10,5062.0,ERROR,"{""available"":""0"",""code"":40310000,""existing_qty"":""10"",""held_for_orders"":""10"",""message"":""insufficient qty available for order (requested: 10, available: 0)"",""related_orders"":[""5308f2a3-f73b-4af3-bc64-44"
+2026-05-18T12:33:22+00:00,XEL,buy,63,4940.5986,ERROR,"{""available"":""0"",""code"":40310000,""existing_qty"":""63"",""held_for_orders"":""63"",""message"":""insufficient qty available for order (requested: 63, available: 0)"",""related_orders"":[""36b2e9fa-1530-4822-ab8c-ed"
+2026-05-18T12:33:22+00:00,MAR,buy,14,4913.3,ERROR,"{""available"":""0"",""code"":40310000,""existing_qty"":""14"",""held_for_orders"":""14"",""message"":""insufficient qty available for order (requested: 14, available: 0)"",""related_orders"":[""a94f5aee-e462-4c13-a9eb-ba"
+2026-05-18T12:33:22+00:00,INTC,buy,45,4912.65,ERROR,"{""available"":""1"",""code"":40310000,""existing_qty"":""45"",""held_for_orders"":""44"",""message"":""insufficient qty available for order (requested: 45, available: 1)"",""related_orders"":[""161c88fa-2957-4994-8351-2f"
+2026-05-18T12:33:22+00:00,PLD,buy,35,4904.2,ERROR,"{""available"":""0"",""code"":40310000,""existing_qty"":""35"",""held_for_orders"":""35"",""message"":""insufficient qty available for order (requested: 35, available: 0)"",""related_orders"":[""e2e86b29-b7af-4ca1-85e6-ec"
+2026-05-18T12:33:22+00:00,META,buy,8,4865.6,ERROR,"{""available"":""0"",""code"":40310000,""existing_qty"":""8"",""held_for_orders"":""8"",""message"":""insufficient qty available for order (requested: 8, available: 0)"",""related_orders"":[""23dd4293-d9e5-42d4-b3f9-96011"
+2026-05-18T12:33:22+00:00,SRE,buy,52,4702.36,ERROR,"{""available"":""0"",""code"":40310000,""existing_qty"":""52"",""held_for_orders"":""52"",""message"":""insufficient qty available for order (requested: 52, available: 0)"",""related_orders"":[""d5b3b882-e9c8-4df8-b124-29"
+2026-05-18T12:33:22+00:00,VTRS,buy,284,4685.4,ERROR,"{""available"":""0"",""code"":40310000,""existing_qty"":""285"",""held_for_orders"":""285"",""message"":""insufficient qty available for order (requested: 284, available: 0)"",""related_orders"":[""8233de29-8ea9-4bd3-9d46"
+2026-05-18T12:33:22+00:00,NEM,buy,41,4471.46,ERROR,"{""available"":""0"",""code"":40310000,""existing_qty"":""41"",""held_for_orders"":""41"",""message"":""insufficient qty available for order (requested: 41, available: 0)"",""related_orders"":[""e5349c44-c7df-49f8-9c25-16"
+2026-05-18T12:33:22+00:00,ROP,buy,6,2055.143950783,55f890e8-bab4-4630-b127-ecca509b1e77,OrderStatus.PENDING_NEW
+2026-05-18T12:33:22+00:00,DLTR,buy,21,1837.9907248322197,eaa66fda-8a7d-42f5-bebd-8473d1d6aee4,OrderStatus.PENDING_NEW
+2026-05-18T12:33:22+00:00,TDG,buy,2,1747.4713873442124,f22121fb-0bf2-4c7d-9e40-ae9f52153fc0,OrderStatus.PENDING_NEW
+2026-05-18T12:33:22+00:00,AMT,buy,9,1565.1056040268486,e7eb4ab9-c410-4706-ac0d-893d6bf0b081,OrderStatus.PENDING_NEW
+2026-05-18T12:33:22+00:00,EFX,buy,10,1564.661387344211,d82efc40-1ddf-44b7-a41b-3533be540033,OrderStatus.PENDING_NEW
+2026-05-18T12:33:22+00:00,ITW,buy,5,1316.5913873442114,9a40022e-0aec-42e8-b6d2-5397a9f63e6f,OrderStatus.PENDING_NEW
+2026-05-18T12:33:22+00:00,DHR,buy,8,1289.4212441275195,b99c61e0-b19c-4df6-a4d1-fdfb537ff282,OrderStatus.PENDING_NEW
+2026-05-18T12:33:22+00:00,EL,buy,12,979.1107248322187,a0ed2aa9-4607-42b1-be5a-35a67c2f2e2d,OrderStatus.PENDING_NEW
+2026-05-18T12:33:22+00:00,SMCI,buy,26,809.0391507830027,27200f4d-b27d-4432-87b8-8b30637137e5,OrderStatus.PENDING_NEW
+2026-05-18T12:33:22+00:00,IBM,buy,3,665.5639507830019,6932f5c1-3836-4fa5-b8e0-2cf6a1f19525,OrderStatus.PENDING_NEW
+2026-05-18T12:33:22+00:00,F,buy,41,555.36,ERROR,"{""available"":""0"",""code"":40310000,""existing_qty"":""39"",""held_for_orders"":""39"",""message"":""insufficient qty available for order (requested: 41, available: 0)"",""related_orders"":[""5a3210d1-40f1-48d1-8c69-8b"
+2026-05-18T12:33:22+00:00,CTSH,buy,5,241.5439507830015,d7e48f98-96f4-4439-99d1-5167402e40e5,OrderStatus.PENDING_NEW
+2026-05-18T12:33:22+00:00,GE,buy,1,230.19138734420994,d76864b9-5aac-4944-8490-1ffd01b441ec,OrderStatus.PENDING_NEW
+2026-05-18T12:33:22+00:00,FIS,buy,5,228.46229753915395,bed5eec4-0495-4325-b582-1322f066dbe2,OrderStatus.PENDING_NEW
+2026-05-18T12:33:22+00:00,PNC,buy,1,220.93946979865723,570714f9-860e-4db0-a08b-2d51baec51f2,OrderStatus.PENDING_NEW
+2026-05-18T12:33:22+00:00,STT,buy,1,219.93946979865723,5c02c639-c585-4f96-a486-ccd14676d5d6,OrderStatus.PENDING_NEW
+2026-05-18T12:33:22+00:00,CVS,buy,2,219.8874052013416,709415a9-a40a-4327-9e84-8178e9839f17,OrderStatus.PENDING_NEW
+2026-05-18T12:33:22+00:00,EBAY,buy,2,213.48332214765105,546f9767-03b2-4615-a913-756f150427c5,OrderStatus.PENDING_NEW
+2026-05-18T12:33:22+00:00,C,buy,2,200.5494697986569,a4834a29-57d0-4ec7-a4a9-65a32fc255c3,OrderStatus.PENDING_NEW
+2026-05-18T12:33:22+00:00,BMY,buy,3,182.79740520134146,e9fe2ed5-76b5-4976-adea-6e52abd17d7c,OrderStatus.PENDING_NEW
+2026-05-18T12:33:22+00:00,COF,buy,1,152.26229753915322,8e68a9c1-d458-4640-a41a-a99c40f2cb51,OrderStatus.PENDING_NEW
+2026-05-18T12:33:22+00:00,MGM,buy,4,144.8833221476507,79182435-8a19-49b0-aec9-a23f971b29d2,OrderStatus.PENDING_NEW
+2026-05-18T12:33:22+00:00,GM,buy,2,137.27332214765102,af9d3626-0f54-4a97-b7bd-780670a3d6cf,OrderStatus.PENDING_NEW
+2026-05-18T12:33:22+00:00,ON,buy,1,129.45139597315392,728b4ee1-0c5e-46e1-8241-d788186a68f4,OrderStatus.PENDING_NEW
+2026-05-18T12:33:22+00:00,CSX,buy,3,126.98198753595261,ca7d338b-191b-41e5-8352-7959dc6b33d4,OrderStatus.PENDING_NEW
+2026-05-18T12:33:22+00:00,BKR,buy,2,119.89176510066955,ad805c46-8f9d-4d7c-999e-203b8352604e,OrderStatus.PENDING_NEW
+2026-05-18T12:33:22+00:00,SLB,buy,2,114.65176510066976,9aed809f-569b-4dc1-8018-4c31d292ef77,OrderStatus.PENDING_NEW
+2026-05-18T12:33:22+00:00,SBUX,buy,1,108.36332214765025,5aabd8f7-d8a7-4d03-8f29-84329ed4321b,OrderStatus.PENDING_NEW
